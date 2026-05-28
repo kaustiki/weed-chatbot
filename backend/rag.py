@@ -28,7 +28,7 @@ class RAGAnswer(BaseModel):
     sources: List[Source] = Field(description="Sources used to answer the question")
 
 
-def retrieve_documents(question: str, n_results: int = 3):
+def retrieve_documents(question: str, n_results: int = 2):
     # Retrieve relevant chunks from ChromaDB
     results = collection.query(
         query_texts=[question],
