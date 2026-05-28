@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What are the key features to spot musk thistle quickly in my pasture?",
+    "answer": "Key features to quickly identify musk thistle in your pasture include: broad, spine-tipped bracts located under the flower; flowering heads that are terminal, solitary, and usually nodding; and the plant can grow up to 6 feet tall. The leaves are alternate, dark green, deeply lobed with spiny margins, extending onto the stem giving a winged appearance. Basal rosettes are well developed with elliptical to lanceolate leaves 6-14 inches long, smooth to densely hairy. The flower heads are 1.5-3 inches wide, deep rose, violet, or purple, occasionally white, and appear from May to July.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 3,
+        "topic": "Musk thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer accurately summarizes the key identification features of musk thistle as described in the provided source context. It includes details about the bracts, flower heads, plant height, leaf characteristics, and flowering period, all of which are directly supported by the source. The cited source is specific and appropriate. All important practical details for identification are included, making the answer complete and well-grounded."
+  },
+  {
+    "question": "How can I tell musk thistle apart from other thistles when scouting fields?",
+    "answer": "You can identify musk thistle (Carduus nulans) by its broad, spine-tipped bracts located under the flower, and its flowering heads which are terminal, solitary, and usually nodding. The plant can grow up to 6 feet tall. The leaves are alternate, dark green, deeply lobed, and spiny margined, extending onto the stem giving a winged appearance. The flower heads are 1.5-3 inches wide, deep rose, violet or purple, occasionally white, and subtended by broad, spine-tipped bracts. These features distinguish musk thistle from other thistles such as bull thistle, which has prickly hairy leaves above and cottony below, and cobwebby-pubescent flower heads.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 3,
+        "topic": "Musk thistle"
+      },
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 1,
+        "topic": "Bull thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer accurately describes the key identification features of musk thistle, including the broad, spine-tipped bracts, nodding solitary flower heads, plant height, and leaf characteristics, all of which are directly supported by the provided source context. It also correctly contrasts musk thistle with bull thistle using details from the source. The answer is factually correct, complete with practical identification details, and the citations are specific and appropriate. All important claims are grounded in the source material."
+  },
+  {
+    "question": "I've noticed bull thistle plants with thick stems and purple flowers late in the season. Is this normal for their lifecycle?",
+    "answer": "Yes, it is normal for bull thistle (Cirsium vulgare) plants to have thick stems and purple flowers late in the season. Bull thistle is a biennial forb/herb that produces composite purple flowers clustered at the ends of branches. Mature plants have leaves that clasp the stem and are divided into segments, and the flowers are 1.5-2 inches wide. The presence of flowers late in the season aligns with their lifecycle as biennials that flower in their second year.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 1,
+        "topic": "Bull thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The returned source context is directly relevant, describing bull thistle's lifecycle as biennial and providing details about its mature form, including thick stems and purple flowers clustered at the ends of branches. The chatbot's answer accurately reflects this information, correctly stating that these characteristics are normal late in the season for bull thistle. All important details from the context are included, and the citation is specific and appropriate. The answer is fully supported, correct, and complete."
+  },
+  {
+    "question": "The bull thistle in my field seems to be flowering earlier than usual this year. Could this indicate a change in its growth stages?",
+    "answer": "The PDF does not provide enough information to determine whether earlier flowering of bull thistle indicates a change in its growth stages. It describes bull thistle as a biennial forb/herb with flowers clustered at the ends of branches, but does not specify typical flowering times or variations in flowering related to growth stages.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide information about the timing of bull thistle flowering or how changes in flowering time relate to growth stages. The retrieved context is directly relevant, as it covers bull thistle identification and lifecycle but does not address the user's specific question about flowering timing. The answer is fully grounded in the provided context, is factually correct, and appropriately cites the relevant section. The answer is complete given the available information and does not invent unsupported claims."
+  },
+  {
+    "question": "What mechanical methods work best to control Canada thistle without damaging my crops?",
+    "answer": "Mowing Canada thistle every 10 to 21 days throughout the growing season is an effective mechanical control method. This approach helps manage the weed without the need for tillage or other methods that might damage crops.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 2,
+        "topic": "Canada thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the source context, which states that mowing Canada thistle every 10 to 21 days throughout the growing season is an effective mechanical control method. The answer is factually correct, complete with the key practical detail (mowing frequency), and does not introduce unsupported claims. The cited sources are specific and appropriate, clearly supporting the answer."
+  },
+  {
+    "question": "Can tilling at certain times reduce Canada thistle spread effectively on my farm?",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 3,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about the timing of tillage for Canada thistle. The retrieved sources discuss mechanical control methods in general and mention mowing for Canada thistle, but do not specifically address tillage timing for this weed. The answer is grounded, correct, and complete given the available context, and the citations are appropriate. Retrieval relevance is rated 3 because the sources are only partially related to the specific question."
+  },
+  {
+    "question": "When is the best time to spray herbicide on diffuse knapweed for maximum effect?",
+    "answer": "The best time to spray herbicide on diffuse knapweed for maximum effect is in the spring at the rosette to early bolt stage and/or in the fall to rosettes. Specific herbicides such as Aminopyralid (Milestone) should be applied at 5-7 oz/acre during these times. Similarly, 2,4-D Amine should be applied to spring/fall rosettes before the flowering stalk lengthens, and Clopyralid + Triclopyr (Redeem R&P) should be applied from rosette to early bolt stage and/or in the fall to rosettes.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 3,
+        "column": 1,
+        "topic": "Diffuse knapweed"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the source context, which specifies that the best time to spray herbicide on diffuse knapweed is in the spring at the rosette to early bolt stage and/or in the fall to rosettes. The answer accurately lists the herbicides, their rates, and the timing as provided in the source. The citations are specific and appropriate, pointing to the correct section of the PDF. All important practical details from the context are included."
+  },
+  {
+    "question": "Should I wait until diffuse knapweed starts flowering before applying herbicides, or is earlier better?",
+    "answer": "For diffuse knapweed, it is better to apply herbicides earlier rather than waiting until flowering. The recommended timing for herbicide application is during the spring at the rosette to early bolt stage and/or in the fall to rosettes, before the plants start flowering.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 3,
+        "column": 1,
+        "topic": "Diffuse knapweed"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The retrieved source context is directly relevant, providing specific herbicide timing recommendations for diffuse knapweed. The chatbot answer accurately summarizes this information, stating that herbicides should be applied in spring at the rosette to early bolt stage and/or in the fall to rosettes, before flowering. All important claims are supported by the context, and the answer includes practical details about timing. The citation is specific and appropriate. Overall, the answer is complete, correct, and well-grounded in the provided source."
+  },
+  {
+    "question": "The salt cedar along my riverbank is growing thick and spreading fast. What control methods could I use to manage it effectively?",
+    "answer": "To effectively manage the thick and fast-spreading salt cedar (Tamarix ramosissima or T. parviflora) along your riverbank, a combination of control methods is recommended. Cultural control involves maintaining healthy riparian vegetative cover to compete with salt cedar. Mechanical control methods such as chainsaw cutting, bulldozing, mulching, and mowing can be used but must be combined with chemical treatments for effectiveness. Biological control includes the use of the saltcedar leaf beetle (Diorhabda elongata), which feeds on the foliage causing stem dieback. Chemical control options include herbicides like Triclopyr (Garlon 4) applied foliarly in late spring to early fall, cut-stump treatments anytime unless snow is present, and basal bark treatments anytime unless snow is present. Glyphosate (Rodeo) and Imazapyr (Arsenal or Habitat) are also effective with specific timing and application methods. Combining these methods will provide the best control of salt cedar along your riverbank.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 4,
+        "column": 3,
+        "topic": "Salt Cedar (Tamarisk)"
+      },
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 1,
+        "column": 4,
+        "topic": "Weed Control Methods"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is highly relevant to the question, directly addressing salt cedar management. All control methods mentioned (cultural, mechanical, biological, chemical) are supported by the source context, including specific herbicides, application rates, and timing. The answer is factually correct and includes practical details such as the need to combine mechanical and chemical methods, the use of the saltcedar leaf beetle, and specific herbicide recommendations and timings. Citations are specific and clearly support the answer. Overall, the response is thorough, accurate, and well-grounded in the provided sources."
+  },
+  {
+    "question": "I've seen salt cedar resprouting after cutting. What integrated control approaches work best in such cases?",
+    "answer": "Salt Cedar (Tamarix ramosissima Ledeb. or T. parviflora DC.) is a perennial tall shrub or small tree that can resprout after cutting due to its deep taproot, extensive horizontal roots, and production of adventitious buds. To effectively control resprouting, an integrated approach combining mechanical and chemical methods is recommended. Mechanical control such as chainsaw cutting, bulldozing, mulching, and mowing must be combined with chemical treatments to prevent resprouting. Chemical control options include applying herbicides like Triclopyr (Garlon 4) as foliar spray (2-4 qt/acre) from late spring to early fall, cut-stump treatment (100% concentration) anytime unless snow is present, or basal bark treatment (1:3 herbicide to natural oil) anytime unless snow is present. Glyphosate (Rodeo) and Imazapyr (Arsenal or Habitat) are also effective when applied as cut-stump treatments. Additionally, biological control using the saltcedar leaf beetle (Diorhabda elongata) can feed on foliage causing stem dieback, which may aid in control over time. Maintaining healthy riparian vegetative cover (cultural control) is also advised to support ecosystem resilience.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 4,
+        "column": 3,
+        "topic": "Salt Cedar (Tamarisk)"
+      },
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 1,
+        "column": 4,
+        "topic": "Weed Control Methods"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the provided source context. It accurately describes salt cedar's ability to resprout, the need to combine mechanical and chemical control, and provides specific herbicide options, rates, and timings as listed in the source. It also mentions biological control (saltcedar leaf beetle) and cultural control (maintaining healthy riparian cover), both of which are in the context. The citations are specific and appropriate, and all important practical details from the source are included."
+  },
+  {
+    "question": "What are the identifying traits of field bindweed compared to other vining weeds in my crops?",
+    "answer": "Field bindweed (Convolvulus arvensis) can be identified by its funnel-shaped flowers that are white to pink with two small bracts about one inch below the flower base. Its leaves are alternate and shaped like arrowheads. The plant has prostrate stems that can extend many feet in length and a rhizomatous root system with a deep taproot. These traits distinguish it from other vining weeds in crops.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 5,
+        "column": 4,
+        "topic": "Field Bindweed"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The answer accurately describes the identifying traits of field bindweed, including flower shape and color, bract placement, leaf shape, stem growth, and root system, all of which are directly supported by the provided source context. The sources cited are specific and appropriate, and the answer is complete with all key identification details available in the context. No unsupported or invented claims are present."
+  },
+  {
+    "question": "How can I professionally confirm if the vining weed choking my alfalfa is field bindweed or something else?",
+    "answer": "To professionally confirm if the vining weed choking your alfalfa is field bindweed (Convolvulus arvensis), look for the following identification clues: the flowers are funnel-shaped, white to pink, about 1 inch long, with two small bracts one inch below the flower base; leaves are alternate and shaped like arrowheads; stems are prostrate and can be many feet in length; and the plant has rhizomatous roots with a deep taproot. Observing these characteristics will help distinguish field bindweed from other vining weeds.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 5,
+        "column": 4,
+        "topic": "Field Bindweed"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer provides detailed identification clues for field bindweed, including flower shape and color, bract position, leaf shape, stem growth, and root system, all of which are directly supported by the source context from page 5, column 4. The answer is factually correct, complete with all key identification details present in the source, and the citations are specific and appropriate. No unsupported or invented claims are present."
+  },
+  {
+    "question": "I sprayed musk thistle last month but it's still coming back strong. When should I apply herbicide again for better control?",
+    "answer": "For better control of musk thistle, herbicides should be applied during the spring rosette to early bolting stage or in the fall to rosettes. Since you sprayed last month and the thistle is still coming back strong, consider applying herbicide again at one of these recommended timings to improve effectiveness.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 3,
+        "topic": "Musk thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the source context, which specifies that herbicides for musk thistle should be applied during the spring rosette to early bolting stage or in the fall to rosettes. The answer correctly relays this timing and gives practical advice based on the user's situation. The sources cited are specific to musk thistle and clearly support the answer. All important details about timing are included, matching the context."
+  },
+  {
+    "question": "After my first herbicide treatment failed on musk thistle, what timing changes should I consider for the next application?",
+    "answer": "For musk thistle, herbicide treatments are most effective when applied during the spring rosette to early bolting stage or in the fall to rosettes. If your first herbicide treatment failed, consider adjusting the timing of your next application to these recommended periods to improve efficacy.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 3,
+        "topic": "Musk thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the source context, which specifies that herbicide treatments for musk thistle are most effective when applied during the spring rosette to early bolting stage or in the fall to rosettes. The answer accurately relays this timing advice and is fully grounded in the provided source. The citation is specific to musk thistle and the relevant page and column are included. All important practical details about timing are included, making the answer complete and correct."
+  },
+  {
+    "question": "How soon does bull thistle usually flower after emergence in my region?",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about how soon bull thistle flowers after emergence. The provided source context includes identification, lifecycle (biennial), and control information for bull thistle, but does not specify the timing of flowering after emergence. The chatbot's response is accurate, grounded, and complete given the available information. The cited sources are appropriate and specific to bull thistle."
+  },
+  {
+    "question": "The bull thistle plants I treated last year flowered again this season. Could I have missed a lifecycle stage in my control plan?",
+    "answer": "Bull thistle (Cirsium vulgare) is a biennial plant, meaning it has a two-year lifecycle. It typically forms a rosette in the first year and flowers in the second year before dying. If the plants you treated last year flowered again this season, it is possible that you missed controlling some plants at the rosette stage, which is the recommended timing for herbicide application. Effective control involves applying herbicides to rosettes in spring or fall and mechanically severing the root below the soil surface. Missing the rosette stage in your control plan could allow plants to survive and flower the following season.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 1,
+        "topic": "Bull thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The answer is fully supported by the provided source context. The context describes bull thistle as a biennial, explains its lifecycle (rosette in year one, flowering in year two), and specifies that herbicide application should target the rosette stage in spring or fall. The answer correctly interprets this information, explains why missing the rosette stage could result in flowering plants the next season, and mentions both mechanical and chemical control methods as described in the source. The cited source is specific and directly relevant."
+  },
+  {
+    "question": "Can you help me ID crabgrass? It’s spreading in my lawn but I’m not sure if the PDF covers it.",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about identifying crabgrass. The returned sources and context do not mention crabgrass or provide identification details for it. The answer is accurate, grounded, and complete given the available context, and the citation quality is appropriate since the sources are relevant to the scope of the question but do not cover crabgrass."
+  },
+  {
+    "question": "I need info on when to spray herbicides for crabgrass, but I don’t see it in the guide. Where else can I look?",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about crabgrass herbicide timing. The retrieved sources are relevant and confirm that crabgrass is not covered in the guide, and the answer does not invent any information. The answer is fully grounded, correct, and complete given the context, and the citation quality is appropriate since the sources support the chatbot's statement."
+  },
+  {
+    "question": "My field has a crabgrass infestation and I’m looking for control strategies, but the PDF doesn’t mention it. Any suggestions?",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about crabgrass control. The retrieved sources and context do not mention crabgrass specifically, and the answer does not invent any information. The response is appropriate, accurate, and well-grounded given the available context."
+  },
+  {
+    "question": "I tried mowing and tilling Canada thistle but it’s still spreading. What mechanical controls should I try next?",
+    "answer": "For mechanical control of Canada thistle, mowing can be effective if done every 10 to 21 days throughout the growing season. Tillage is also mentioned as a mechanical method, but the guide specifically highlights frequent mowing as a control strategy. Therefore, you should try mowing repeatedly at intervals of 10 to 21 days during the growing season to help control the spread of Canada thistle.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 2,
+        "topic": "Canada thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 4,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The retrieved sources are directly relevant, especially the section on Canada thistle, which specifically mentions that mowing every 10 to 21 days throughout the growing season can be effective. The answer is fully grounded in the provided context and is factually correct. However, the answer could be slightly more complete by mentioning that both mowing and tillage are mechanical methods (as per the general weed control methods section), and by acknowledging that the guide does not suggest additional mechanical methods beyond frequent mowing and tillage. The citations are specific and appropriate. Overall, the answer is acceptable and well-supported."
+  },
+  {
+    "question": "What mechanical control options remain if initial Canada thistle treatments don’t work well?",
+    "answer": "If initial treatments for Canada thistle are not fully effective, mowing can be used as a mechanical control method. It should be done every 10 to 21 days throughout the growing season to help manage the weed.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 2,
+        "topic": "Canada thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The answer directly addresses mechanical control options for Canada thistle when initial treatments are ineffective, specifically mentioning mowing every 10 to 21 days throughout the growing season. This is explicitly supported by the source context (NoxWeedMangementGuide2019LasAnimas.pdf, page 2, column 2). The answer is factually correct, complete regarding the mechanical method described, and the citation is specific and appropriate. No unsupported claims are made."
+  },
+  {
+    "question": "What are the best ways to tell diffuse knapweed apart from similar thistles when scouting fields?",
+    "answer": "Diffuse knapweed (Centaurea diffusa Lam) can be distinguished from similar thistles by several key identification features: its floral bracts have yellow spines with teeth like a comb and a distinct terminal spine; flowers are white or lavender; seedlings have finely divided leaves. The plant has broadly urn-shaped flower heads that are terminal, solitary or in clusters of 2-3, with floral bracts that are yellowish with a brownish margin, fringed on the sides, and terminating in a slender bristle or spine. Leaves are stalked and divided into narrow, hairy segments at the base, with smaller, alternate, less divided, stalkless stem leaves that become bract-like near the flower clusters. Stems are upright, 4-24 inches tall, highly branched, angled, with short, stiff hairs on the angles. These features help differentiate diffuse knapweed from thistles, which typically have prickly hairy leaves and different flower structures.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 3,
+        "column": 1,
+        "topic": "Diffuse knapweed"
+      },
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 2,
+        "column": 1,
+        "topic": "Bull thistle"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the provided source context. It accurately describes the key identification features of diffuse knapweed, including floral bracts, flower color, leaf structure, and stem characteristics, all of which are detailed in the source. The answer also correctly contrasts these features with those of thistles, referencing the prickly hairy leaves and different flower structures of bull thistle as described in the source. The citations are specific and directly relevant to the question. All important practical details for field identification are included, making the answer complete and well-grounded."
+  },
+  {
+    "question": "How can I professionally identify diffuse knapweed in mixed weed populations in my rangeland?",
+    "answer": "Diffuse knapweed (Centaurea diffusa Lam) can be professionally identified by several key features: its floral bracts have yellow spines with teeth like a comb and a distinct terminal spine; flowers are white or lavender; seedlings have finely divided leaves. The plant is a biennial or short-lived perennial forb with broadly urn-shaped flowers 0.6-0.8 inches tall, either solitary or in clusters of 2-3. Floral bracts are yellowish with a brownish margin, fringed on the sides, and end in a slender bristle or spine. The flower heads contain two types of flowers: ray flowers (white, rose-purple to lavender) around the edges and tubular disk flowers. Leaves include basal stalked leaves divided into narrow, hairy segments, and smaller, alternate, less divided stem leaves that become bract-like near flower clusters. Stems are upright, 4-24 inches tall, highly branched, angled, with short stiff hairs on the angles. Seedlings have finely divided leaves covered by short hair. These identification clues can help distinguish diffuse knapweed in mixed weed populations in rangeland.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 3,
+        "column": 1,
+        "topic": "Diffuse knapweed"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer provides a thorough and accurate summary of the identification features of diffuse knapweed, including floral bracts, flower color, leaf characteristics, stem description, and seedling traits. All these details are directly supported by the provided source context. The answer is factually correct, complete with practical identification clues, and the cited source is specific and appropriate. No unsupported or invented claims are present."
+  },
+  {
+    "question": "When does salt cedar typically leaf out and flower during the year?",
+    "answer": "The PDF does not provide enough information to answer this question.",
+    "app_sources": [],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot correctly states that the PDF does not provide enough information to answer the question about when salt cedar typically leafs out and flowers. The provided source context for salt cedar includes identification, control methods, and herbicide timing, but does not specify the timing of leaf-out or flowering. The answer is accurate, grounded, and complete given the available information, and the cited source is appropriate."
+  },
+  {
+    "question": "Is there a specific time in the salt cedar lifecycle when control efforts are most effective?",
+    "answer": "Yes, the PDF specifies timing for herbicide application on salt cedar (Tamarisk) to be most effective. Foliar herbicide treatments with Triclopyr (Garlon 4) should be applied from late spring to early fall. Cut-stump treatments can be done anytime unless snow is present, and basal bark treatments can also be applied anytime unless snow is present. For Glyphosate (Rodeo), cut-stump treatments can be done anytime unless snow is present, ensuring the cambium is fully wetted after cutting. Imazapyr (Arsenal or Habitat) foliar applications should be done from late spring to late summer, avoiding spray solution runoff, and cut-stump treatments can be applied anytime except spring. These timings align with the salt cedar's growth and lifecycle stages to maximize control effectiveness.",
+    "app_sources": [
+      {
+        "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
+        "page": 4,
+        "column": 3,
+        "topic": "Salt Cedar (Tamarisk)"
+      }
+    ],
+    "judge_scores": {
+      "retrieval_relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "completeness": 5,
+      "citation_quality": 5,
+      "pass_eval": true
+    },
+    "judge_reason": "The chatbot answer is directly supported by the source context, which provides specific timing for herbicide applications (foliar, cut-stump, basal bark) for salt cedar. The answer accurately summarizes these timings and relates them to the lifecycle stages, as described in the source. All important practical details from the context are included, and the citations are specific and appropriate. The answer is factually correct and complete according to the provided information."
+  }
+]
