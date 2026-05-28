@@ -1,0 +1,7 @@
+jupyter
+ipykernel
+pandas
+numpy
+pypdf
+python-dotenv
+openai
