@@ -6,10 +6,23 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from backend.rag import answer_question
+import os
 
+try:
+    from braintrust import init_logger, traced
+except ImportError:
+    init_logger = None
+    traced = None
+
+
+braintrust_logger = None
+
+if init_logger and os.getenv("BRAINTRUST_API_KEY"):
+    braintrust_logger = init_logger(project="weed-management-chatbot-production")
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 FRONTEND_BUILD_DIR = PROJECT_ROOT / "frontend" / "build" / "client"
+ENABLE_LLM_JUDGE = os.getenv("ENABLE_LLM_JUDGE", "false").lower() == "true"
 
 app = FastAPI(
     title="Weed Management Q&A API",
@@ -36,10 +49,35 @@ def health_check():
         "message": "Weed Management Q&A API is running.",
     }
 
-
 @app.post("/ask")
 def ask_question(request: AskRequest):
-    return answer_question(request.question)
+    result = answer_question(request.question)
+
+    judge_result = None
+
+    if ENABLE_LLM_JUDGE:
+        from backend.judge import judge_chain
+
+        judge_response = judge_chain.invoke(
+            {
+                "question": request.question,
+                "answer": result["answer"],
+            }
+        )
+
+        judge_result = judge_response.model_dump()
+
+    if braintrust_logger:
+        braintrust_logger.log(
+            input=request.question,
+            output=result["answer"],
+            metadata={
+                "sources": result.get("sources", []),
+                "judge": judge_result,
+            },
+        )
+
+    return result
 
 
 @app.get("/")

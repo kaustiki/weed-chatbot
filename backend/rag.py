@@ -102,18 +102,40 @@ llm = ChatOpenAI(
 structured_llm = llm.with_structured_output(RAGAnswer)
 
 
-rag_chain = (
-    RunnableParallel(
+rag_chain = prompt | structured_llm
+
+
+def answer_question_with_context(question: str):
+    documents = retrieve_documents(question)
+    context = create_context(documents)
+    response = rag_chain.invoke(
         {
-            "question": RunnablePassthrough(),
-            "context": RunnableLambda(retrieve_documents) | RunnableLambda(create_context),
+            "question": question,
+            "context": context,
         }
     )
-    | prompt
-    | structured_llm
-)
+    # take the structured Pydantic response object and serialize it into a regular dict.
+    answer_payload = response.model_dump()
+
+    return {
+        **answer_payload,
+        "retrieved_context": context,
+        "retrieved_sources": [
+            {
+                "source": doc.metadata["source"],
+                "page": doc.metadata["page"],
+                "column": doc.metadata["column"],
+                "topic": doc.metadata["topic"],
+                "text": doc.page_content,
+            }
+            for doc in documents
+        ],
+    }
 
 
 def answer_question(question: str):
-    response = rag_chain.invoke(question)
-    return response.model_dump()
+    result = answer_question_with_context(question)
+    return {
+        "answer": result["answer"],
+        "sources": result["sources"],
+    }
