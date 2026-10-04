@@ -114,6 +114,37 @@ main > p {
   font-weight: 700;
 }
 
+.graph-trace {
+  margin: 16px 0 24px;
+}
+
+.graph-trace-step {
+  padding: 10px 0;
+  border-top: 1px solid #d9e3d3;
+}
+
+.graph-trace-step:last-child {
+  border-bottom: 1px solid #d9e3d3;
+}
+
+.graph-trace-step summary {
+  cursor: pointer;
+  color: #17351f;
+  font-weight: 700;
+}
+
+.graph-trace-step pre {
+  max-height: 360px;
+  overflow: auto;
+  margin: 12px 0 0;
+  padding: 12px;
+  background: #f4f7f1;
+  color: #1e241f;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
 ul {
   margin: 0;
   padding-left: 20px;

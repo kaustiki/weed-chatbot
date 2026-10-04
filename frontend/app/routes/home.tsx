@@ -47,6 +47,23 @@ export default function Home() {
           <h2>Answer</h2>
           <p>{data.answer}</p>
 
+          {data.graph_trace?.length > 0 && (
+            <>
+              <h2>LangGraph Trace</h2>
+
+              <div className="graph-trace">
+                {data.graph_trace.map((step) => (
+                  <details key={step.step} className="graph-trace-step">
+                    <summary>
+                      Step {step.step}: <code>{step.name}</code> ({step.kind})
+                    </summary>
+                    <pre>{JSON.stringify(step.update, null, 2)}</pre>
+                  </details>
+                ))}
+              </div>
+            </>
+          )}
+
           {data.sources?.length > 0 && (
             <>
               <h2>Sources</h2>
