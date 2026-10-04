@@ -79,7 +79,8 @@ def ask_question(request: AskRequest):
 
     return result
 
-
+# Serve the built React frontend when FastAPI runs as the final single server.
+# During development, the fastapi/uvicorn server runs and the the React/Vite server also runs on port 5173 and forwards `/ask` requests to this FastAPI server on port 8000.
 @app.get("/")
 def serve_frontend():
     return FileResponse(FRONTEND_BUILD_DIR / "index.html")

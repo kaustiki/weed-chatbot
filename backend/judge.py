@@ -114,10 +114,9 @@ JUDGE_PROMPT = ChatPromptTemplate.from_messages(
 )
 
 judge_llm = ChatOpenAI(
-    model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+    model=os.getenv("OPENAI_MODEL", "gpt-4.1-mini"),
     temperature=0,
-    api_key=os.getenv("GROQ_API_KEY"),
-    base_url="https://api.groq.com/openai/v1",
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 judge_chain = (
