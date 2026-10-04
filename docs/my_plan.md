@@ -27,7 +27,7 @@ use structure-based chunking by page column, because the PDF is a 4-column broch
 
 3. Create embeddings: openai text embedding small (small is enough as the chunks are only 24 and data is less)
 
-4. Store embeddings: ChromaDB (Since this is a demo project (not going into production) and since chromadb allows us to store the document, embedding and metadata like   metadatas=[{
+4. Store embeddings: ChromaDB (since chromadb allows us to store the document, embedding and metadata like   metadatas=[{
         "source": "NoxWeedMangementGuide2019LasAnimas.pdf",
         "page": 2,
         "topic": "Musk thistle",
