@@ -295,7 +295,7 @@ def answer_question(question: str):
             "step": 0,
             "kind": "boundary",
             "name": "START",
-            "update": current_state,
+            "update": current_state.copy(),
         }
     ]
 
